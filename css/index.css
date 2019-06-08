@@ -312,6 +312,9 @@ img {
   }
 }
 .home .content-destination img {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 10px;
 }
 .home .content-pick {
@@ -328,6 +331,7 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+  padding: 20px;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
